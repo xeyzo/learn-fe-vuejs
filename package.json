@@ -5,8 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "autoprefixer": "^10.4.20",
@@ -31,10 +30,8 @@
     "@vue/test-utils": "^2.0.0-0",
     "@vue/vue3-jest": "^27.0.0-alpha.1",
     "babel-jest": "^27.0.6",
-    "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^8.0.3",
     "jest": "^27.0.5",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
@@ -42,8 +39,5 @@
     "prettier": "^2.4.1",
     "ts-jest": "^27.0.4",
     "typescript": "~4.5.5"
-  },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
   }
 }
